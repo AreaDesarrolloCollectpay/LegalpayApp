@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://www.dominio.com/sitemap.xml
+Disallow: /cms

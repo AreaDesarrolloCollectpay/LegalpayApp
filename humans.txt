@@ -1,0 +1,25 @@
+s/* THANKS */
+
+	Front-end Developer: William Villalba
+	Twitter: @WilliamVilla13
+	Email: williamvillalba13@gmail.co
+	From: Colombia, Bogotá.
+		
+
+/* SITE */
+	Last update:2018/20/02
+	Language: Castellano
+	Doctype:HTML5
+	IDE: Sublime Text, FileZilla, Photoshop
+
+
+
+/* TECHNOLOGY */
+	HTML5,
+	CSS3,
+	Normalize.css,
+	jQuery,
+	Modernizr,
+	Stylus,
+	GUlp.js
+	Canvas
