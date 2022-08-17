@@ -19,7 +19,11 @@
                                 <div class="card_dash sin_margin waves-effect waves-light">
                                     <img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/bg-panel-dashboard.svg" class="svg-img">
                                     <div class="txt">
+<<<<<<< HEAD
                                         <h1><?php echo Yii::t('front', 'Conciliaciones Extrajudiciales'); ?></h1>
+=======
+                                        <h1><?php echo Yii::t('front', 'Mi Cartera'); ?></h1>
+>>>>>>> 572b53cf67d6f4e50cbcc69eda943c6782081dcf
                                         <div class="lineap"></div>
                                         <?php $quadrants = Controller::GetAgeDebt(0, 0); ?>
                                         <div class="row">
@@ -36,7 +40,11 @@
                                 <div class="card_dash sin_margin waves-effect waves-light">
                                     <img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/bg-panel-dashboard.svg" class="svg-img">
                                     <div class="txt">
+<<<<<<< HEAD
                                         <h1><?php echo Yii::t('front', 'Mis procesos'); ?></h1>
+=======
+                                        <h1><?php echo Yii::t('front', 'Mis Procesos'); ?></h1>
+>>>>>>> 572b53cf67d6f4e50cbcc69eda943c6782081dcf
                                         <div class="lineap"></div>
                                         <?php $quadrants = Controller::GetAgeDebt(0, 5); ?>
                                         <div class="row">

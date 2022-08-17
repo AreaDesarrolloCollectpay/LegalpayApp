@@ -68,4 +68,8 @@ $idioma = $session['idioma'];
 
 <?php
 Yii::app()->clientScript->registerScriptFile('https://www.google.com/recaptcha/api.js', CClientScript::POS_END);
+<<<<<<< HEAD
 Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/assets/js/services.min.js', CClientScript::POS_END);
+=======
+Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/assets/js/services.min.js', CClientScript::POS_END);
+>>>>>>> 572b53cf67d6f4e50cbcc69eda943c6782081dcf

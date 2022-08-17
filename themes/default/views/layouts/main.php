@@ -18,7 +18,10 @@ if($session['idioma']==2){
 <!--[if gt IE 9]><!--> <html class="no-js ie10"> <!--<![endif]-->
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<<<<<<< HEAD
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+=======
+>>>>>>> 572b53cf67d6f4e50cbcc69eda943c6782081dcf
         <meta name="viewport" content="width=device-width; initial-scale=1.0" />
         <meta charset="utf-8" />
         <link rel="shortcut icon" type="image/x-icon" href="<?php echo Yii::app()->baseUrl; ?>/assets/img/favicon.ico" />
@@ -100,4 +103,8 @@ if($session['idioma']==2){
     
   
     </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 572b53cf67d6f4e50cbcc69eda943c6782081dcf
