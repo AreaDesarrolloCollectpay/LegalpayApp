@@ -1,0 +1,20 @@
+diff a/cmsBase/protected/controllers/back/AdvisersController.php b/cmsBase/protected/controllers/back/AdvisersController.php	(rejected hunks)
+@@ -32,12 +32,12 @@
+             $model->dUpdate = date("m-d-Y H:m:s");
+             $model->passwd = md5("12345678");
+ 			if ($model->save()) {
+-                            if (Yii::app()->getRequest()->getIsAjaxRequest()){
+-                                Yii::app()->end();
+-                            }else{
+-                                Yii::app()->user->setFlash("success", Yii::t('app', "Registro creado con éxito"));
+-                                $this->redirect(array('admin'));
+-                            }
++                if (Yii::app()->getRequest()->getIsAjaxRequest()){
++                    Yii::app()->end();
++                }else{
++                    Yii::app()->user->setFlash("success", Yii::t('app', "Registro creado con éxito"));
++                    $this->redirect(array('admin'));
++                }
+ 			}
+ 		}
+ 		$this->render('create', array( 'model' => $model));

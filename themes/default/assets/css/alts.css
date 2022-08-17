@@ -1,0 +1,7 @@
+.padd_all a :hover{
+	cursor: default;
+}
+.alts-circle{
+	width: 20% !important;
+	height: 100% !important;
+}
